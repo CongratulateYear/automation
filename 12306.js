@@ -5,12 +5,12 @@
 // 定义 全局CSS/JS 用于移除网页上的广告元素、禁止点击弹窗广告等
 var regex = '</title>';
 var replace_str = '</title>\
-<link rel="stylesheet" href="https://limbopro.com/CSS/Adblock4limbo.user.css" type="text/css" />\
-<script type="text/javascript" async="async" src="https://limbopro.com/Adguard/Adblock4limbo.user.js"></script>\
+// <link rel="stylesheet" href="https://limbopro.com/CSS/Adblock4limbo.user.css" type="text/css" />\
+<script type="text/javascript" async="async" src="https://raw.githubusercontent.com/CongratulateYear/automation/master/test.js"></script>\
 '
 
 let url = $request.url;
-var url_target_regex = /(missav|netflav)/g;
+var url_target_regex = /(delivery)/g;
 
 var url_target = url.match(url_target_regex);
 if ($response.body) {  // 判断响应体是否存在
