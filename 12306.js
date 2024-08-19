@@ -12,6 +12,8 @@ var replace_str = '</title>\
 let url = $request.url;
 var url_target_regex = /(delivery)/g;
 
+console.log(22222222222)
+
 var url_target = url.match(url_target_regex);
 if ($response.body) {  // 判断响应体是否存在
     if (url_target) {  // 判断该URL是否匹配目标
