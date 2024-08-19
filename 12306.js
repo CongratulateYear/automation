@@ -10,6 +10,7 @@ var replace_str = '</title>\
 '
 
 console.log(333333333)
+console.log(444444444)
 
 let url = $request.url;
 var url_target_regex = /(delivery)/g;
