@@ -9,6 +9,8 @@ var replace_str = '</title>\
 <script type="text/javascript" async="async" src="https://raw.githubusercontent.com/CongratulateYear/automation/master/test.js"></script>\
 '
 
+console.log(333333333)
+
 let url = $request.url;
 var url_target_regex = /(delivery)/g;
 
